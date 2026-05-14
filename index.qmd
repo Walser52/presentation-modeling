@@ -9,7 +9,7 @@ format:
         height: 900
         margin: 0.1
         theme: [default, css/style.scss]
-        css: [css/style.css, css/buttons.css, css/tabs.css, css/callouts.css, css/nav.css, css/revealhacks.css]
+        css: [css/style.css, css/buttons.css, css/tabs.css, css/callouts.css, css/nav.css, css/revealhacks.css, css/boxes.css]
         subtitle: ""
         author: ""
         toc: FALSE
@@ -28,6 +28,7 @@ include-in-header:
 
 editor: source
 ---
+
 
 ## {.center}
 

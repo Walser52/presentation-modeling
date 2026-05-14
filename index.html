@@ -6,8 +6,8 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="">
   <title>index</title>
@@ -29,13 +29,14 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-8aa7c65d2ade9b65f6f4f32ae286fc2e.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-3bb1d93edc11ad7284c8869624e2834e.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/buttons.css">
   <link rel="stylesheet" href="css/tabs.css">
   <link rel="stylesheet" href="css/callouts.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/revealhacks.css">
+  <link rel="stylesheet" href="css/boxes.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -314,51 +315,42 @@ Modeling is a decision-making tool, not magic.</p>
 </section>
 <section id="the-landscape" class="slide level2 scrollable">
 <h2>The Landscape</h2>
-<div class="ddm">
-<div class="ddm-head" onclick="toggleBox(this)" style="">
-<p>Why we care about materials and what is Materials Modeling?</p>
-</div>
-<div class="ddm-box">
-<p>We care about materials becasue they are in our phones, batteries, solar panels, medicines, cars, and what not.</p>
 <p><r>Materials Modeling</r> is the use of <strong>physics-based or data-driven methods</strong> to understand and predict material behavior.</p>
-<p><strong>Core idea:</strong> Replace expensive experiments with <strong>predictive computation</strong></p>
+<div style="text-align: center;">
+<div class="box" style="background: lightblue; width: 80%">
+<div class="box-title textsc">
+CORE IDEA
+</div>
+<div class="box-content">
+Replace expensive experiments with <strong>predictive computation</strong>
 </div>
 </div>
-<div class="ddm">
-<div class="ddm-head" onclick="toggleBox(this)" style="">
-<p>Why it matters</p>
 </div>
-<div class="ddm-box">
-<p>Materials modeling: - Bridges <strong>theory ↔︎ experiment ↔︎ application</strong> - Enables: - Property prediction before synthesis - Design of new materials - Understanding mechanisms at multiple scales</p>
-<ul>
-<li>Reduces cost and time in materials discovery</li>
-<li>Enables exploration of <strong>impossible-to-test conditions</strong></li>
-<li>Drives innovation in:
-<ul>
-<li>Energy materials</li>
-<li>Semiconductors</li>
-<li>Biomaterials</li>
-<li>Nanotechnology</li>
-</ul></li>
-</ul>
+<p>We like it because…</p>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/landscape/bridges.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 </div>
-<div class="ddm">
-<div class="ddm-head" onclick="toggleBox(this)" style="">
-<p>The multiscale nature of modeling</p>
-</div>
-<div class="ddm-box">
-<ul>
-<li>Materials behavior spans:
-<ul>
-<li><strong>Electrons → atoms → microstructure → devices</strong></li>
-</ul></li>
-<li>No single method covers everything</li>
-</ul>
-<p><strong>Key challenge:</strong> Linking scales consistently</p>
-<p>Where you start depends on your question and background. What you need to know depends on what you want to do. You can start with a simple model and build up as needed. The important thing is to understand the assumptions and limitations of your chosen method.</p>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/landscape/enables.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 </div>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/landscape/drives.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="landscape-continued" class="slide level2 scrollable">
+<h2>Landscape [continued]</h2>
 <div class="ddm">
 <div class="ddm-head" onclick="toggleBox(this)">
 <p>Some active research groups</p>
@@ -433,8 +425,24 @@ Modeling is a decision-making tool, not magic.</p>
 </div>
 </div>
 </section>
-<section id="major-branches-of-materials-modeling" class="slide level2">
+<section id="major-branches-of-materials-modeling" class="slide level2 scrollable">
 <h2>Major Branches of Materials Modeling</h2>
+<div class="ddm">
+<div class="ddm-head" onclick="toggleBox(this)" style="background-color: white;">
+<p>The multiscale nature of modeling</p>
+</div>
+<div class="ddm-box">
+<ul>
+<li>Materials behavior spans:
+<ul>
+<li><strong>Electrons → atoms → microstructure → devices</strong></li>
+</ul></li>
+<li>No single method covers everything</li>
+</ul>
+<p><strong>Key challenge:</strong> Linking scales consistently</p>
+<p>Where you start depends on your question and background. What you need to know depends on what you want to do. You can start with a simple model and build up as needed. The important thing is to understand the assumptions and limitations of your chosen method.</p>
+</div>
+</div>
 <div class="columns">
 <div class="column">
 <!-- column 1 -->
@@ -545,6 +553,15 @@ Modeling is a decision-making tool, not magic.</p>
 </section>
 <section id="section-3" class="slide level2 scrollable">
 <h2></h2>
+</section></section>
+<section>
+<section id="dft-density-functional-theory" class="title-slide slide level1 center">
+<h1>DFT: Density Functional Theory</h1>
+
+</section>
+<section id="section-4" class="slide level2 scrollable">
+<h2></h2>
+<!--ddm-start -->
 <div class="ddm">
 <div class="ddm-head" onclick="toggleBox(this)">
 <p>The Problem with Quantum Mechanics</p>
@@ -563,6 +580,8 @@ Modeling is a decision-making tool, not magic.</p>
 </div>
 </div>
 </div>
+<!-- ddm-end -->
+<!-- ddm-start -->
 <div class="ddm">
 <div class="ddm-head" onclick="toggleBox(this)">
 <p>So What Do Scientists Do?</p>
@@ -576,6 +595,8 @@ Modeling is a decision-making tool, not magic.</p>
 <p>This is where <strong>DFT</strong> comes in.</p>
 </div>
 </div>
+<!-- ddm-end -->
+<!-- ddm-start -->
 <div class="ddm">
 <div class="ddm-head" onclick="toggleBox(this)">
 <p>DFT meaning Discrete Fourier Transform?</p>
@@ -606,12 +627,15 @@ Modeling is a decision-making tool, not magic.</p>
 </blockquote>
 </div>
 </div>
+<!-- ddm-end -->
+<!-- ddm-start -->
 <div class="ddm">
 <div class="ddm-head" onclick="toggleBox(this)">
 <p>Explain like I’m 5</p>
 </div>
 <div class="ddm-box">
 <p>Imagine trying to study traffic in a city.</p>
+<!-- columns-start -->
 <div class="columns">
 <div class="column">
 <p>Impossible approach</p>
@@ -625,6 +649,7 @@ Modeling is a decision-making tool, not magic.</p>
 <li>Where are the bottlenecks?</li>
 </ul>
 </div></div>
+<!-- columns-end -->
 <p>DFT does something similar for electrons.</p>
 <p><span style="align:center; background-color: #f0f0f0; padding: 1em; border-radius: 5px;">The Central Idea of DFT</span></p>
 <p>The electron density contains enough information to determine:</p>
@@ -637,71 +662,143 @@ Modeling is a decision-making tool, not magic.</p>
 </ul>
 </div>
 </div>
+<!-- ddm-end -->
 </section>
-<section class="slide level2">
-
+<section id="section-5" class="slide level2 scrollable">
+<h2></h2>
 <div class="fragment">
 <p>That idea was revolutionary.</p>
 </div>
 <div class="fragment">
-<p>DFT Became important because it allows scientists to compute:</p>
+<p>DFT Became important because it lets scientists:</p>
+<!-- columns-start -->
 <div class="columns">
-<div class="column" style="width:35%;">
-<div id="box1" style="align:center; color: white; background-color: #708D81; padding: 1em; border-radius: 5px;">
-<p>Band structures<br>
+<!-- col1 --><div class="column" style="width:35%;">
+<!-- Box left -->
+<div class="box" style="background: #c2c2c2; width: 100%; font-size:0.8em">
+<div class="box-title textsc" style="background: #708D81;">
+Compute
+</div>
+<div class="box-content sans">
+Band structures<br>
 Charge density<br>
 Magnetic moments<br>
 Formation energies<br>
 Vibrational properties<br>
-Reaction pathways</p>
+Reaction pathways<br>
+Transport properties
 </div>
-</div><div class="column" style="width:15%;">
-<p>so that they can…</p>
-</div><div class="column" style="width:40%;">
+</div>
+</div><!-- dummy-col --><div class="column" style="width:15%;">
+
+</div><!-- col3 --><div class="column" style="width:40%;">
 <div class="fragment">
-<div id="box2" style="align:center; color: white; background-color: #ce6454; padding: 1em; border-radius: 5px;">
-<p>Design materials before experiments<br>
-Predict new compounds<br>
-Study defects and impurities &nbsp; Understand catalysts &nbsp; Explore battery materials<br>
-Investigate quantum materials</p>
+<!-- Box left -->
+<div class="box" style="background: #dba39b; width: 100%;  font-size:0.8em">
+<div class="box-title textsc" style="background: #ce6454; font-size:0.8em">
+so that they can
+</div>
+<div class="box-content sans">
+<p>Design materials before experiments</p>
+<p>Predict new compounds</p>
+<p>Study defects and impurities</p>
+<p>Understand catalysts</p>
+<p>Explore battery materials</p>
+Investigate quantum materials<br>
+
+</div>
 </div>
 </div>
 </div></div>
 </div>
-<div class="fragment">
-<div style="align:left; color: white; background-color: #B796AC; padding: 1em; margin: 1em; border-radius: 5px;">
-<p>Example: Silicon</p>
-<p>DFT can help explain:</p>
-<ul>
-<li>Why silicon is a semiconductor</li>
-<li>How dopants modify conductivity</li>
-<li>Why transistors work</li>
-</ul>
-<p>Modern electronics heavily depend on ideas enabled by DFT calculations.</p>
+<!-- ::: {style="text-align: center;"}
+
+<div class="box" style="background: lightblue; width: 100%">
+<div class="box-title textsc">EXAMPLE</div>
+
+<div class="box-content">
+    Silicon
+
+    DFT can help explain:
+
+    - Why silicon is a semiconductor
+    - How dopants modify conductivity
+    - Why transistors work
+    Modern electronics heavily depend on ideas enabled by DFT calculations. 
+    </div>
 </div>
-</div>
+
+::: -->
+<!-- :::{.fragment} -->
+<!-- Box left -->
+<!-- <div class="box" style="background: rgb(239, 215, 211); width: 100%;  font-size:0.8em; margin:1em">
+  <div class="box-title textsc" style="background: #754b67; font-size:0.8em" >Example</div>
+
+  <div class="box-content sans">
+Silicon
+
+DFT can help explain:
+
+- Why silicon is a semiconductor
+- How dopants modify conductivity
+- Why transistors work
+Modern electronics heavily depend on ideas enabled by DFT calculations.  
+  </div>
+</div> -->
+<!-- ::: -->
 </section>
-<section id="section-4" class="slide level2 scrollable">
+<section id="section-6" class="slide level2 scrollable">
 <h2></h2>
 </section>
 <section id="what-a-typical-qe-workflow-is-like" class="slide level2 scrollable">
 <h2>What a typical QE Workflow is like</h2>
 <p>QE is not one code but a suite of codes.</p>
-<!-- ![](figs/quantum_espresso_workflow.svg){width=1200px} -->
-<!-- <img src="figs/quantum_espresso_workflow.svg" width="600px"> -->
+<div class="columns">
+<div class="column">
+<p><img data-src="figs/quantum_espresso_workflow.png" width="1200"></p>
+</div><div class="column" style="font-size:0.9em">
+<pre><code>&amp;CONTROL
+    calculation = 'scf'            ! Type of calculation (scf, relax, vc-relax, etc.)
+    prefix      = 'silicon'        ! Prefix for output files (e.g., silicon.save)
+    pseudo_dir  = './pseudo/'      ! Directory where pseudopotentials are stored
+    outdir      = './tmp/'         ! Directory for temporary files
+/
+&amp;SYSTEM
+    ibrav     = 2                  ! Bravais lattice index (2 = Face-Centered Cubic)
+    celldm(1) = 10.26              ! Lattice constant 'a' in Bohr (1 Bohr ≈ 0.529 Å)
+    nat       = 2                  ! Total number of atoms in the unit cell
+    ntyp      = 1                  ! Number of different atomic species
+    ecutwfc   = 30.0               ! Kinetic energy cutoff for wavefunctions (Rydberg)
+/
+&amp;ELECTRONS
+    conv_thr    = 1.0d-8           ! Convergence threshold for SCF energy
+    mixing_beta = 0.7              ! Mixing factor for charge density iterations
+/
+ATOMIC_SPECIES
+    Si  28.086  Si.pbe-n-kjpaw_psl.1.0.0.UPF  ! Symbol, Mass, Pseudopotential file name
 
-<img data-src="figs/quantum_espresso_workflow.png" width="1200" class="r-stretch"><p>An understanding of each aspect is crucial.</p>
+ATOMIC_POSITIONS (alat)
+    Si 0.00 0.00 0.00              ! Position of the first silicon atom
+    Si 0.25 0.25 0.25              ! Position of the second silicon atom
+
+K_POINTS (automatic)
+    4 4 4 1 1 1                    ! Monkhorst-Pack grid: nx ny nz and offsets
+</code></pre>
+</div></div>
+<p>An understanding of each aspect is crucial.</p>
 </section>
-<section id="what-is-working-with-ase-like" class="slide level2">
-<h2>What is working with ASE like</h2>
+<section id="what-is-working-with-aserdkitpymatgen-like" class="slide level2">
+<h2>What is working with ASE/RDkit/pymatgen like</h2>
+<iframe src="https://code4np.github.io/posts/chemsim_2024_02_28/index.html" width="150%" height="100%" style="border:none;">
+</iframe>
 </section>
-<section id="section-5" class="slide level2 scrollable">
+<section id="section-7" class="slide level2 scrollable">
 <h2></h2>
 <iframe src="figs/qe_workflow.html" width="150%" height="100%" style="border:none;">
 </iframe>
 <p>–&gt;</p>
 </section>
-<section id="section-6" class="slide level2 scrollable">
+<section id="section-8" class="slide level2 scrollable">
 <h2></h2>
 <style>
 .figure-caption {
@@ -1045,14 +1142,13 @@ Table&nbsp;1: Key properties of each method
 </div>
 </figure>
 </div>
-</section>
-<section id="how-the-methods-connect" class="slide level2">
-<h2>How the methods connect</h2>
-<p>DFT is the central hub of the landscape.</p>
-<p>GW applies perturbative corrections on top of DFT orbitals to recover accurate quasiparticle band gaps — expensive but exact for weakly correlated systems.</p>
-<p>For strongly correlated materials (Mott insulators, heavy-fermion compounds), DFT generates a Wannier-projected tight-binding Hamiltonian that feeds into DMFT, whose Anderson impurity model is solved numerically by quantum Monte Carlo.</p>
-<p>Classical Monte Carlo and molecular dynamics extend the reach of DFT-computed energy surfaces to longer times and larger supercells.</p>
-<p>Finally, the large databases of DFT-labeled structures and MC trajectories (e.g., the Materials Project) serve as training data for machine-learning interatomic potentials and cheminformatics models, enabling screening at scales that are completely intractable for first-principles methods.</p>
+<ul>
+<li>DFT is the central hub of the landscape.</li>
+<li>GW applies perturbative corrections on top of DFT orbitals to recover accurate quasiparticle band gaps — expensive but exact for weakly correlated systems.</li>
+<li>For strongly correlated materials (Mott insulators, heavy-fermion compounds), DFT generates a Wannier-projected tight-binding Hamiltonian that feeds into DMFT, whose Anderson impurity model is solved numerically by quantum Monte Carlo.</li>
+<li>Classical Monte Carlo and molecular dynamics extend the reach of DFT-computed energy surfaces to longer times and larger supercells.</li>
+<li>Finally, the large databases of DFT-labeled structures and MC trajectories (e.g., the Materials Project) serve as training data for machine-learning interatomic potentials and cheminformatics models, enabling screening at scales that are completely intractable for first-principles methods.</li>
+</ul>
 </section>
 <section id="common-pitfalls" class="slide level2 scrollable">
 <h2>Common Pitfalls</h2>
@@ -1155,9 +1251,6 @@ Table&nbsp;1: Key properties of each method
 </section>
 <section id="skill-set" class="slide level2 scrollable">
 <h2>Skill Set</h2>
-</section>
-<section id="what-skills-do-you-need" class="slide level2">
-<h2>What Skills Do You Need?</h2>
 <div class="ddm">
 <div class="dd-head" onclick="toggleBox(this)">
 <p>Core Foundations</p>
@@ -1278,30 +1371,33 @@ Tabs:
     - PINNs for  
 
  -->
-<ul>
-<li>Phase Transitions (Motivation)
-<ul>
-<li>Anion exchange induced (Easy, MS level)</li>
-<li>Defect induced (Easy)</li>
-</ul></li>
-<li>Electron phonon coupling</li>
-<li>Polaron formation</li>
-<li>Multiexciton generation</li>
-</ul>
-<p>Topological materials</p>
-<ul>
-<li>Data-driven</li>
-<li>PINNs on Topological Materials</li>
-</ul>
-<p>High Physics</p>
-<ul>
-<li><p>Electrocatalysis (Device level modeling)</p></li>
-<li><p>inelastic heat engines</p></li>
-<li><p>Floquet drives</p></li>
-<li><p>Jacutingaites.</p></li>
-</ul>
+<!-- - Phase Transitions
+(Motivation)
+    - Anion exchange induced (Easy, MS level)
+    - Defect induced (Easy)
+
+- Electron phonon coupling
+- Polaron formation
+- Multiexciton generation
+
+Topological materials
+
+- Data-driven
+- PINNs on Topological Materials
+
+High Physics 
+
+
+- Electrocatalysis
+(Device level modeling)
+
+- inelastic heat engines
+
+- Floquet drives 
+
+- Jacutingaites.  -->
 <div class="ddm">
-<div class="dd-head" onclick="toggleBox(this)" style="background-color: #d9534f;">
+<div class="dd-head" onclick="toggleBox(this)" style="background-color: #0d3f91;">
 <p>Anion Exchange–Induced Phase Transition</p>
 </div>
 <div class="dd-box">
@@ -1310,7 +1406,7 @@ Tabs:
 </div>
 </div>
 <div class="ddm">
-<div class="dd-head" onclick="toggleBox(this)" style="background-color: #d9534f;">
+<div class="dd-head" onclick="toggleBox(this)" style="background-color: #0d3f91;">
 <p>Defect-Induced Phase Transition</p>
 </div>
 <div class="dd-box">
@@ -1319,7 +1415,7 @@ Tabs:
 </div>
 </div>
 <div class="ddm">
-<div class="dd-head" onclick="toggleBox(this)" style="background-color: #d9534f;">
+<div class="dd-head" onclick="toggleBox(this)" style="background-color: #0d3f91;">
 <p>Electron–Phonon Coupling vs Dimensionality</p>
 </div>
 <div class="dd-box">
@@ -1328,7 +1424,7 @@ Tabs:
 </div>
 </div>
 <div class="ddm">
-<div class="dd-head" onclick="toggleBox(this)" style="background-color: #d9534f;">
+<div class="dd-head" onclick="toggleBox(this)" style="background-color: #0d3f91;">
 <p>Polaron Formation in Soft Lattices</p>
 </div>
 <div class="dd-box">
@@ -1337,7 +1433,7 @@ Tabs:
 </div>
 </div>
 <div class="ddm">
-<div class="dd-head" onclick="toggleBox(this)" style="background-color: #d9534f;">
+<div class="dd-head" onclick="toggleBox(this)" style="background-color: #0d3f91;">
 <p>Strain-Tunable Topological Phase Transition</p>
 </div>
 <div class="dd-box">
@@ -1346,7 +1442,7 @@ Tabs:
 </div>
 </div>
 <div class="ddm">
-<div class="dd-head" onclick="toggleBox(this)" style="background-color: #d9534f;">
+<div class="dd-head" onclick="toggleBox(this)" style="background-color: #0d3f91;">
 <p>Data-Driven Discovery of Topological Materials</p>
 </div>
 <div class="dd-box">
@@ -1355,7 +1451,7 @@ Tabs:
 </div>
 </div>
 <div class="ddm">
-<div class="dd-head" onclick="toggleBox(this)" style="background-color: #d9534f;">
+<div class="dd-head" onclick="toggleBox(this)" style="background-color: #0d3f91;">
 <p>Floquet Engineering of Band Topology</p>
 </div>
 <div class="dd-box">
@@ -1365,7 +1461,7 @@ Tabs:
 </div>
 <!-- The end -->
 </section>
-<section id="section-7" class="slide level2 center">
+<section id="section-9" class="slide level2 center">
 <h2></h2>
 <pre><p style="margin-left: 5em;font-family: GS_L; font-variant: small-caps; font-size:1.5em"><b>The End</b></p></pre><b>
 </b>
@@ -1563,7 +1659,7 @@ Tabs:
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1637,13 +1733,14 @@ Tabs:
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

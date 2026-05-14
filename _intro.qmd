@@ -1,60 +1,37 @@
 
 
-::::{.ddm}
-:::{.ddm-head onclick="toggleBox(this)" style=""}
-Why we care about materials and what is Materials Modeling?
-:::
-:::{.ddm-box}
-We care about materials becasue they are in our phones, batteries, solar panels, medicines, cars, and what not.
-
 <r>Materials Modeling</r> is the use of **physics-based or data-driven methods** to understand and predict material behavior. 
 
-**Core idea:** Replace expensive experiments with **predictive computation**
+::: {style="text-align: center;"}
+
+<div class="box" style="background: lightblue; width: 80%">
+  <div class="box-title textsc">CORE IDEA</div>
+
+  <div class="box-content">
+Replace expensive experiments with **predictive computation**
+  </div>
+</div>
+
 :::
-::::
 
 
+We like it because...
 
-::::{.ddm}
-:::{.ddm-head onclick="toggleBox(this)" style=""}
-Why it matters
+:::{.fragment}
+![](figs/landscape/bridges.png){fig-align=center}
 :::
-:::{.ddm-box}
-Materials modeling:
-- Bridges **theory ↔ experiment ↔ application**
-- Enables:
-  - Property prediction before synthesis
-  - Design of new materials
-  - Understanding mechanisms at multiple scales
-  
-- Reduces cost and time in materials discovery
-- Enables exploration of **impossible-to-test conditions**
-- Drives innovation in:
-  - Energy materials
-  - Semiconductors
-  - Biomaterials
-  - Nanotechnology
+:::{.fragment}
+![](figs/landscape/enables.png){fig-align=center}
 :::
-::::
-
-
-
-::::{.ddm}
-:::{.ddm-head onclick="toggleBox(this)" style=""}
-The multiscale nature of modeling
+:::{.fragment}
+![](figs/landscape/drives.png){fig-align=center}
 :::
-:::{.ddm-box}
-- Materials behavior spans:
-  - **Electrons → atoms → microstructure → devices**
-- No single method covers everything
 
-**Key challenge:** Linking scales consistently
 
-Where you start depends on your question and background.
-What you need to know depends on what you want to do. You can start with a simple model and build up as needed. The important thing is to understand the assumptions and limitations of your chosen method.
-:::
-::::
 
+
+
+## Landscape [continued] {.scrollable}
 
 ::::{.ddm}
 :::{.ddm-head onclick="toggleBox(this)"}
@@ -152,7 +129,24 @@ Applies computational simulation software to understand, design, or optimize mat
 
 
 
-## Major Branches of Materials Modeling
+## Major Branches of Materials Modeling {.scrollable}
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="background-color: white;"}
+The multiscale nature of modeling
+:::
+:::{.ddm-box}
+- Materials behavior spans:
+  - **Electrons → atoms → microstructure → devices**
+- No single method covers everything
+
+**Key challenge:** Linking scales consistently
+
+Where you start depends on your question and background.
+What you need to know depends on what you want to do. You can start with a simple model and build up as needed. The important thing is to understand the assumptions and limitations of your chosen method.
+:::
+::::
+
 
 ::::{.columns}
 :::{.column}

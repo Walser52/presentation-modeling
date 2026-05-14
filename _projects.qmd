@@ -8,7 +8,7 @@ Tabs:
  -->
 
 
-- Phase Transitions
+<!-- - Phase Transitions
 (Motivation)
     - Anion exchange induced (Easy, MS level)
     - Defect induced (Easy)
@@ -32,10 +32,10 @@ High Physics
 
 - Floquet drives 
 
-- Jacutingaites. 
+- Jacutingaites.  -->
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #0d3f91;"}
 Anion Exchange–Induced Phase Transition
 :::
 :::{.dd-box}
@@ -46,7 +46,7 @@ Anion Exchange–Induced Phase Transition
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #0d3f91;"}
 Defect-Induced Phase Transition
 :::
 :::{.dd-box}
@@ -57,7 +57,7 @@ Defect-Induced Phase Transition
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #0d3f91;"}
 Electron–Phonon Coupling vs Dimensionality
 :::
 :::{.dd-box}
@@ -68,7 +68,7 @@ Electron–Phonon Coupling vs Dimensionality
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #0d3f91;"}
 Polaron Formation in Soft Lattices
 :::
 :::{.dd-box}
@@ -79,7 +79,7 @@ Polaron Formation in Soft Lattices
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #0d3f91;"}
 Strain-Tunable Topological Phase Transition
 :::
 :::{.dd-box}
@@ -90,7 +90,7 @@ Strain-Tunable Topological Phase Transition
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #0d3f91;"}
 Data-Driven Discovery of Topological Materials
 :::
 :::{.dd-box}
@@ -101,7 +101,7 @@ Data-Driven Discovery of Topological Materials
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #0d3f91;"}
 Floquet Engineering of Band Topology
 :::
 :::{.dd-box}

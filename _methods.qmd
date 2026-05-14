@@ -293,14 +293,9 @@ The five methods of computational materials science, arranged left-to-right by s
 
 : Key properties of each method {#tbl-methods tbl-colwidths="[15,28,20,7,30]" style="font-size: 0.67em; margin: 1rem auto;"}
 
-## How the methods connect
 
-DFT is the central hub of the landscape. 
-
-GW applies perturbative corrections on top of DFT orbitals to recover accurate quasiparticle band gaps — expensive but exact for weakly correlated systems. 
-
-For strongly correlated materials (Mott insulators, heavy-fermion compounds), DFT generates a Wannier-projected tight-binding Hamiltonian that feeds into DMFT, whose Anderson impurity model is solved numerically by quantum Monte Carlo. 
-
-Classical Monte Carlo and molecular dynamics extend the reach of DFT-computed energy surfaces to longer times and larger supercells. 
-
-Finally, the large databases of DFT-labeled structures and MC trajectories (e.g., the Materials Project) serve as training data for machine-learning interatomic potentials and cheminformatics models, enabling screening at scales that are completely intractable for first-principles methods.
+- DFT is the central hub of the landscape. 
+- GW applies perturbative corrections on top of DFT orbitals to recover accurate quasiparticle band gaps — expensive but exact for weakly correlated systems. 
+- For strongly correlated materials (Mott insulators, heavy-fermion compounds), DFT generates a Wannier-projected tight-binding Hamiltonian that feeds into DMFT, whose Anderson impurity model is solved numerically by quantum Monte Carlo. 
+- Classical Monte Carlo and molecular dynamics extend the reach of DFT-computed energy surfaces to longer times and larger supercells. 
+- Finally, the large databases of DFT-labeled structures and MC trajectories (e.g., the Materials Project) serve as training data for machine-learning interatomic potentials and cheminformatics models, enabling screening at scales that are completely intractable for first-principles methods.

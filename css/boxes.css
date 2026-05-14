@@ -1,0 +1,37 @@
+  /* Main container */
+  .box{
+    position:relative;
+    /* border:3px solid #174a9c; */
+    border-radius:28px;
+    padding:40px 20px 20px; /* top left-right bottom */
+    background:cadetblue;
+    /* max-width:700px; */
+    margin:auto;
+  }
+
+  /* Floating title tag */
+  .box-title{
+    position:absolute;
+    top:-0.95em;
+    left:50%;
+    transform:translateX(-50%);
+    
+    background:#0d3f91;
+    color:white;
+
+    padding:0.25em 1em;
+    border-radius:16px;
+
+    font-weight:bold;
+    font-size:0.8em;
+    letter-spacing:1px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+  }
+
+    .box-content{
+    /* color:#222; */
+    line-height:1.6;
+    font-size:1.2em;
+    font-weight:bold;
+  }

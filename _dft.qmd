@@ -1,5 +1,11 @@
 
 
+
+# DFT: Density Functional Theory
+
+## {.scrollable}
+
+<!--ddm-start -->
 ::::{.ddm}
 :::{.ddm-head onclick="toggleBox(this)"}
 The Problem with Quantum Mechanics
@@ -18,10 +24,13 @@ For a material with many electrons:
 ::: {.fragment}
 Even a tiny crystal contains **billions upon billions** of electrons.
 :::
+
 :::
 ::::
+<!-- ddm-end -->
 
 
+<!-- ddm-start -->
 ::::{.ddm}
 :::{.ddm-head onclick="toggleBox(this)"}
 So What Do Scientists Do?
@@ -36,8 +45,11 @@ This is where **DFT** comes in.
 
 :::
 ::::
+<!-- ddm-end -->
 
 
+
+<!-- ddm-start -->
 ::::{.ddm}
 :::{.ddm-head onclick="toggleBox(this)"}
 DFT meaning Discrete Fourier Transform? 
@@ -59,11 +71,13 @@ DFT asks:
 
 > "How much electronic charge exists at each point in space?"
 
-
 :::
 ::::
+<!-- ddm-end -->
 
 
+
+<!-- ddm-start -->
 ::::{.ddm}
 :::{.ddm-head onclick="toggleBox(this)"}
 Explain like I'm 5
@@ -71,6 +85,7 @@ Explain like I'm 5
 :::{.ddm-box}
 Imagine trying to study traffic in a city.
 
+<!-- columns-start -->
 ::::{.columns}
 :::{.column}
 Impossible approach
@@ -87,7 +102,7 @@ Study the **traffic density** instead.
 - Where are the bottlenecks?
 :::
 ::::
-
+<!-- columns-end -->
 
 DFT does something similar for electrons.
 
@@ -102,12 +117,10 @@ The electron density contains enough information to determine:
 - Optical properties
 :::
 ::::
+<!-- ddm-end -->
 
 
-
-
-
----
+## {.scrollable}
 
 
 
@@ -116,43 +129,65 @@ That idea was revolutionary.
 :::
 
 
+
+
+
+
+
+
 ::: {.fragment}
-DFT Became important because it allows scientists to compute:
+DFT Became important because it lets scientists:
 
 
-
-
-
-
-
-
-
+<!-- columns-start -->
 ::::{.columns}
+<!-- col1 -->
 :::{.column width="35%"}
 
-:::{#box1 style="align:center; color: white; background-color: #708D81; padding: 1em; border-radius: 5px;"}
+
+<!-- Box left -->
+<div class="box" style="background: #c2c2c2; width: 100%; font-size:0.8em">
+  <div class="box-title textsc" style="background: #708D81;">Compute</div>
+
+  <div class="box-content sans">
 Band structures\
 Charge density\
 Magnetic moments\
 Formation energies\
 Vibrational properties\
-Reaction pathways
+Reaction pathways\
+Transport properties
+  </div>
+</div>
+
+
 :::
-:::
+<!-- dummy-col -->
 :::{.column width="15%"}
-so that they can...
 :::
+<!-- col3 -->
 :::{.column width="40%"}
 :::{.fragment}
 
-:::{#box2 style="align:center; color: white; background-color: #ce6454; padding: 1em; border-radius: 5px;"}
-Design materials before experiments \
-Predict new compounds \
-Study defects and impurities \ 
-Understand catalysts \ 
-Explore battery materials \
-Investigate quantum materials
-:::
+<!-- Box left -->
+<div class="box" style="background: #dba39b; width: 100%;  font-size:0.8em">
+  <div class="box-title textsc" style="background: #ce6454; font-size:0.8em" >so that they can</div>
+
+  <div class="box-content sans">
+Design materials before experiments
+
+Predict new compounds
+
+Study defects and impurities
+
+Understand catalysts 
+
+Explore battery materials 
+
+Investigate quantum materials  
+  </div>
+</div>
+
 :::
 
 :::
@@ -163,17 +198,43 @@ Investigate quantum materials
 
 
 
-:::{.fragment}
-:::{style="align:left; color: white; background-color: #B796AC; padding: 1em; margin: 1em; border-radius: 5px;"}
-Example: Silicon
+
+<!-- ::: {style="text-align: center;"}
+
+<div class="box" style="background: lightblue; width: 100%">
+<div class="box-title textsc">EXAMPLE</div>
+
+<div class="box-content">
+    Silicon
+
+    DFT can help explain:
+
+    - Why silicon is a semiconductor
+    - How dopants modify conductivity
+    - Why transistors work
+    Modern electronics heavily depend on ideas enabled by DFT calculations. 
+    </div>
+</div>
+
+::: -->
+
+<!-- :::{.fragment} -->
+
+<!-- Box left -->
+<!-- <div class="box" style="background: rgb(239, 215, 211); width: 100%;  font-size:0.8em; margin:1em">
+  <div class="box-title textsc" style="background: #754b67; font-size:0.8em" >Example</div>
+
+  <div class="box-content sans">
+Silicon
 
 DFT can help explain:
 
 - Why silicon is a semiconductor
 - How dopants modify conductivity
 - Why transistors work
+Modern electronics heavily depend on ideas enabled by DFT calculations.  
+  </div>
+</div> -->
 
-Modern electronics heavily depend on ideas enabled by DFT calculations.
-:::
-:::
+<!-- ::: -->
 

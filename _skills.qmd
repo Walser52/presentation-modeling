@@ -1,8 +1,6 @@
 
 
 
-## What Skills Do You Need?
-
 ::::{.ddm}
 :::{.dd-head onclick="toggleBox(this)"}
 

@@ -216,3 +216,17 @@ text-align: left;
        url("../fonts/GillSans/GillSansLightC-Italic.woff2") format('woff2'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+
+
+.textsc {
+  font-variant: small-caps;
+}
+
+.emph{
+  font-style: italic;
+}
+
+.sans{
+  font-family: 'Inter', 'GS', sans-serif;
+  font-weight: 300;
+}
