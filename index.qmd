@@ -52,6 +52,39 @@ editor: source
 
 {{< include _ase_qe.qmd >}}
 
+## {.scrollable}
+
+<iframe 
+  src="figs/qe_workflow.html"
+  width="150%" 
+  height="100%"
+  style="border:none;">
+</iframe> -->
+
+## {.scrollable}
+
+{{< include _methods.qmd >}}
+
+
+
+## Common Pitfalls {.scrollable}
+
+{{< include _pitfalls.qmd >}}
+
+
+## Skill Set {.scrollable}
+
+{{< include _skills.qmd >}}
+
+## Materials you can model {.scrollable}
+
+{{< include _materials.qmd >}}
+
+## Open Projects {.scrollable}
+
+{{< include _projects.qmd >}}
+
+
 <!-- The end -->
 ## {.center}
 {{< include _theend.qmd >}}
