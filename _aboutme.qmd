@@ -1,0 +1,22 @@
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+
+About us
+:::
+:::{.dd-box}
+
+::::{.columns}
+:::{.column}
+We’re a team from GIK Institute who’ve spent years working with financial data. Like most analysts, we were tired of wasting time cleaning data instead of analyzing it—so we created `dalmash` to make investing faster, clearer, and more intuitive.
+:::
+:::{.column}
+![](figs/dalmash/giki.jpg)
+:::
+:::: 
+
+
+
+:::
+::::

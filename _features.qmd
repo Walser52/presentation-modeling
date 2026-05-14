@@ -1,0 +1,149 @@
+
+<!-- ::::{.columns}
+:::{.column} -->
+<!--  -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**High quality data in one place**
+
+
+:::
+:::{.ddm-box}
+
+::::{.columns}
+:::{.column}
+- Stop wasting time cleaning messy data  
+- Everything you need, already organized  
+- Reliable numbers you can trust  
+- Spend your time thinking, not fixing data  
+:::
+:::{.column}
+![](figs/dalmash/graph.png){width=300 fig-align="center"}
+:::
+::::
+:::
+::::
+
+<!--  -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Fundamental analysis**
+
+:::
+:::{.ddm-box}
+- See which companies are doing well (and which aren’t) instantly  
+- Compare companies side by side  
+- Understand growth, profits, and performance quickly  
+- Turn data into clear investment ideas  
+:::
+::::
+
+<!--  -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Technical analysis**
+
+:::
+:::{.ddm-box}
+
+::::{.columns}
+:::{.column}
+- Spot trends in prices easily  
+- See when things are going up, down, or sideways  
+- Understand market behavior at a glance  
+- Explore ideas without complicated setup   
+:::
+:::{.column}
+![](figs/dalmash/exchange.png){width=550 fig-align="center"}
+:::
+::::
+:::
+::::
+
+
+<!--  -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Manage portfolios**
+
+:::
+:::{.ddm-box}
+
+::::{.columns}
+:::{.column}
+- Keep all your investments in one place  
+- Track performance at a glance  
+- See what’s working and what’s not  
+- Compare different portfolios easily  
+- Stay organized as your investments grow   
+:::
+:::{.column}
+![](figs/dalmash/portfolio.png){width=300 fig-align="center"}
+:::
+::::
+:::
+::::
+
+<!-- :::
+:::{.column} -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Zoom in/zoom out**
+
+:::
+:::{.ddm-box}
+
+::::{.columns}
+:::{.column}
+- Look at the big picture or small details anytime  
+- Switch from sectors to individual companies instantly  
+- Stay flexible as your questions change   
+:::
+:::{.column}
+![](figs/dalmash/zoom.png){width=300 fig-align="center"}
+:::
+::::
+:::
+::::
+
+<!--  -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Visualization tools**
+:::
+:::{.ddm-box}
+- Turn data into simple, clear charts  
+- Compare companies visually  
+- Understand complex data in seconds  
+- Share insights easily  
+:::
+::::
+
+<!--  -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Get your own AI/ML based insights or use ours**
+
+:::
+:::{.ddm-box}
+
+::::{.columns}
+:::{.column}
+- Discover patterns you might miss  
+- Get smarter insights from your data  
+- Let the system do the heavy thinking  
+- Make better decisions with less effort  
+- Get alerts on unusual changes  
+- Spot opportunities earlier  
+- Understand risks more clearly  
+- Turn information into action  
+:::
+:::{.column}
+![](figs/dalmash/analysis.png){width=600 fig-align="center"}
+:::
+::::
+:::
+::::
+
+<!-- :::
+:::: -->

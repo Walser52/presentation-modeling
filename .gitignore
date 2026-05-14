@@ -1,0 +1,74 @@
+# ----------------------------
+# Quarto
+# ----------------------------
+.quarto/
+
+
+# Quarto freeze/cache
+*_freeze/
+.freeze/
+
+# Rendered output (optional: ignore if you don't want to version HTML)
+# *.html
+
+# ----------------------------
+# OS / Editor junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ----------------------------
+# Python (if using Jupyter / Python engine)
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# ----------------------------
+# R (if using R engine)
+# ----------------------------
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+renv/cache/
+
+# ----------------------------
+# Node (if using JS tooling, themes, etc.)
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ----------------------------
+# Logs & temp files
+# ----------------------------
+*.log
+*.tmp
+*.cache/
+
+# ----------------------------
+# Data files (optional — depends on workflow)
+# ----------------------------
+data/
+*.csv
+*.xlsx
+
+# ----------------------------
+# Environment / secrets
+# ----------------------------
+.env
+.env.*

@@ -1,0 +1,56 @@
+---
+title: "."
+format:
+    revealjs:
+        title-slide-attributes:
+            data-background-image: figs/dalmash/bank.png
+            data-background-size: 250px
+        width: 1600
+        height: 900
+        margin: 0.1
+        theme: [default, css/style.scss]
+        css: [css/style.css, css/buttons.css, css/tabs.css, css/callouts.css, css/nav.css, css/revealhacks.css]
+        subtitle: ""
+        author: ""
+        toc: FALSE
+        incremental: FALSE
+        slide-number: true
+        # auto-animate-easing: ease-in-out
+        auto-animate-unmatched: false
+        auto-animate-duration: 1.5   
+        transition: convex
+        background-transition: fade
+        logo: figs/dalmash/bank.png
+        ligthbox: auto
+        engine: jupyter            
+include-in-header:
+    file: scripts/scripts.js
+
+editor: source
+---
+
+
+## {.center}
+
+{{< include _title.qmd >}}
+
+## {.scrollable}
+
+{{< include _aboutme.qmd >}}
+
+## What `dalmash` is? {.scrollable}
+
+{{< include _dalmash.qmd >}}
+
+## What `dalmash` does? {.scrollable background-color="white"}
+{{< include _features.qmd >}}
+
+## Who `dalmash` is for? {.scrollable background-color="white"}
+
+
+{{< include _users.qmd >}}
+
+<!-- The end -->
+## {.center}
+{{< include _theend.qmd >}}
+
