@@ -3,7 +3,7 @@ title: "."
 format:
     revealjs:
         title-slide-attributes:
-            data-background-image: figs/dalmash/bank.png
+            data-background-image: figs/logo.png
             data-background-size: 250px
         width: 1600
         height: 900
@@ -20,7 +20,7 @@ format:
         auto-animate-duration: 1.5   
         transition: convex
         background-transition: fade
-        logo: figs/dalmash/bank.png
+        logo: figs/logo.png
         ligthbox: auto
         engine: jupyter            
 include-in-header:
@@ -29,12 +29,9 @@ include-in-header:
 editor: source
 ---
 
-
 ## {.center}
 
 {{< include _title.qmd >}}
-
-
 
 ## Common Myths & Misconceptions in Materials Modeling {.scrollable}
 
