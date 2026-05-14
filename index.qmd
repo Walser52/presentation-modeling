@@ -34,21 +34,11 @@ editor: source
 
 {{< include _title.qmd >}}
 
-## {.scrollable}
 
-{{< include _aboutme.qmd >}}
-
-## What `dalmash` is? {.scrollable}
-
-{{< include _dalmash.qmd >}}
 
 ## What `dalmash` does? {.scrollable background-color="white"}
 {{< include _features.qmd >}}
 
-## Who `dalmash` is for? {.scrollable background-color="white"}
-
-
-{{< include _users.qmd >}}
 
 <!-- The end -->
 ## {.center}
