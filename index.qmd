@@ -44,7 +44,13 @@ editor: source
 
 {{< include _intro.qmd >}}
 
+## {.scrollable}
 
+{{< include _dft.qmd >}}
+
+## {.scrollable}
+
+{{< include _ase_qe.qmd >}}
 
 <!-- The end -->
 ## {.center}
