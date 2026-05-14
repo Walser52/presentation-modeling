@@ -1,0 +1,258 @@
+
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style=""}
+Why we care about materials and what is Materials Modeling?
+:::
+:::{.ddm-box}
+We care about materials becasue they are in our phones, batteries, solar panels, medicines, cars, and what not.
+
+<r>Materials Modeling</r> is the use of **physics-based or data-driven methods** to understand and predict material behavior. 
+
+**Core idea:** Replace expensive experiments with **predictive computation**
+:::
+::::
+
+
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style=""}
+Why it matters
+:::
+:::{.ddm-box}
+Materials modeling:
+- Bridges **theory ↔ experiment ↔ application**
+- Enables:
+  - Property prediction before synthesis
+  - Design of new materials
+  - Understanding mechanisms at multiple scales
+  
+- Reduces cost and time in materials discovery
+- Enables exploration of **impossible-to-test conditions**
+- Drives innovation in:
+  - Energy materials
+  - Semiconductors
+  - Biomaterials
+  - Nanotechnology
+:::
+::::
+
+
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style=""}
+The multiscale nature of modeling
+:::
+:::{.ddm-box}
+- Materials behavior spans:
+  - **Electrons → atoms → microstructure → devices**
+- No single method covers everything
+
+**Key challenge:** Linking scales consistently
+
+Where you start depends on your question and background.
+What you need to know depends on what you want to do. You can start with a simple model and build up as needed. The important thing is to understand the assumptions and limitations of your chosen method.
+:::
+::::
+
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)"}
+Some active research groups
+:::
+:::{.ddm-box}
+- Electronic Structure / DFT / Quantum Materials
+  - Materials Project — High-throughput DFT database and computational materials discovery platform led from Lawrence Berkeley National Laboratory.
+  - OQMD — Open Quantum Materials Database; large-scale DFT infrastructure.
+  - NOMAD Laboratory — Major FAIR-data and materials informatics effort.
+  - Center for Computational Study of Excited-State Phenomena in Energy Materials (C2SEPEM) — Advanced excited-state and electronic-structure modeling.
+
+- Machine Learning for Materials
+  - FAIR Chemistry — AI foundation models for molecules and materials.
+  - DeepMind — Active in materials discovery and graph neural network methods.
+  - Microsoft Research — Strong activity in AI-guided materials design and sustainability modeling.
+  - Toyota Research Institute — ML-driven battery and materials discovery efforts.
+
+- Special Materials (MOFs / Porous Materials / Energy Materials...)
+  - Wilmer Lab — High-throughput screening and ML for MOFs.
+  - Snurr Research Group — Computational nanoporous materials and adsorption modeling.
+  - Smit Group — Molecular simulation of porous materials and separations.
+  - Kulik Group — ML + electronic structure for catalysts and framework materials.
+
+- Multiscale / Molecular Dynamics / Computational Mechanics
+  - LAMMPS Development Team — Central hub for atomistic simulation methods and MD workflows.
+  - Materials Theory Group at Imperial College London — Active in atomistic and mesoscale modeling.
+  - Max Planck Institute for Iron Research — Strong computational materials science division spanning DFT to continuum modeling.
+
+- Europe-Based Centers Strong for MSCA/Postdoc Opportunities
+  - Cecam — Major European network for computational materials science.
+  - Institute of Science and Technology Austria — Growing computational materials and ML ecosystem.
+  - Forschungszentrum Jülich — Large-scale HPC and materials modeling programs.
+
+
+:::
+::::
+
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style=""}
+How you can contribute
+:::
+:::{.ddm-box}
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+METHOD Developer
+:::
+:::{.ddp-box}
+Creates, refines, and validates the theoretical frameworks, algorithms, and software tools used to simulate and predict the behavior of materials
+:::
+::::
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+CODE Builder
+:::
+:::{.ddp-box}
+Creates, maintains, and optimizes software used to simulate the physical and chemical properties of materials at atomic, molecular, or continuum scales
+:::
+::::
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+END User
+:::
+:::{.ddp-box}
+Applies computational simulation software to understand, design, or optimize materials without necessarily developing the underlying simulation code themselves
+:::
+::::
+
+
+
+:::
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Major Branches of Materials Modeling
+
+::::{.columns}
+:::{.column}
+<!-- column 1 -->
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Quantum Mechanical Methods
+:::
+:::{.dd-box}
+- Based on **first principles (ab initio)**
+- Examples:
+  - Density Functional Theory (DFT)
+- Used for:
+  - Electronic structure
+  - Band structure
+  - Defects
+:::
+::::
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Atomistic Simulations
+:::
+:::{.dd-box}
+- Treat atoms explicitly
+- Examples:
+  - Molecular Dynamics (MD)
+  - Monte Carlo
+
+- Used for:
+  - Diffusion
+  - Thermal properties
+  - Structural evolution
+
+:::
+::::
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Mesoscale Modeling
+:::
+:::{.dd-box}
+- Coarse-grained descriptions
+- Examples:
+  - Phase-field models
+  - Kinetic Monte Carlo
+
+- Used for:
+  - Microstructure evolution
+  - Grain growth
+  - Defect dynamics
+
+:::
+::::
+
+:::
+:::{.column}
+<!-- column 2 -->
+
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Continuum Modeling
+:::
+:::{.dd-box}
+- Treat material as continuous medium
+- Examples:
+  - Finite Element Method (FEM)
+
+- Used for:
+  - Mechanical behavior
+  - Device-scale simulations
+
+:::
+::::
+
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Data-Driven Modeling
+:::
+:::{.dd-box}
+- Machine Learning + Materials Science
+- Examples:
+  - Property prediction models
+  - Generative materials design
+
+- Key shift:
+  - From **physics-only → physics + data**
+
+:::
+::::
+<!-- column 2 end -->
+:::
+::::
+
+
+
+

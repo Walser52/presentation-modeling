@@ -36,8 +36,14 @@ editor: source
 
 
 
-## What `dalmash` does? {.scrollable background-color="white"}
-{{< include _features.qmd >}}
+## Common Myths & Misconceptions in Materials Modeling {.scrollable}
+
+{{< include _myths.qmd >}}
+
+## The Landscape {.scrollable}
+
+{{< include _intro.qmd >}}
+
 
 
 <!-- The end -->

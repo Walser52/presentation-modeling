@@ -1,0 +1,106 @@
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+
+Myth 1: Simulations are always accurate
+:::
+:::{.dd-box}
+- Models depend on:
+  - Assumptions
+  - Approximations
+  - Parameter quality
+- **Reality:** All models have limits
+:::
+::::
+
+<!--  -->
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Myth 2: More expensive methods are always better
+:::
+:::{.dd-box}
+- Higher-level methods cost more computationally
+- May not be necessary for every problem
+- **Reality:** Best method = right balance of accuracy + scale + efficiency
+:::
+::::
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Myth 3: Modeling replaces experiments
+:::
+:::{.dd-box}
+- Simulations guide and interpret experiments
+- Experimental validation remains essential
+- **Reality:** Modeling and experiments are complementary
+:::
+::::
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Myth 4: Coding skill alone makes you a modeler
+:::
+:::{.dd-box}
+- Software operation ≠ scientific understanding
+- Strong theory and physical intuition are critical
+- **Reality:** Physics first, tools second
+:::
+::::
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Myth: Materials modeling is only at the atomic level
+:::
+:::{.dd-box}
+
+Materials modeling spans every scale — from electrons and atoms to devices, factories, and entire engineering systems.
+
+:::
+::::
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Myth 5: Machine learning will replace physics
+:::
+:::{.dd-box}
+- ML is powerful but data-dependent
+- Can fail outside training space
+- **Reality:** ML works best when combined with domain knowledge
+:::
+::::
+
+<!-- style="background-color: #d9534f;" -->
+
+
+<!-- ::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+Common Pitfall
+:::
+:::{.dd-box}
+> Pretty plots do not guarantee correct science.
+:::
+:::: -->
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #1c445e;"}
+Final Perspective
+:::
+:::{.dd-box}
+**Good materials modeling requires:**
+
+- Scientific rigor
+- Method selection
+- Validation
+- Critical thinking
+
+**Bottom line:**  
+Modeling is a decision-making tool, not magic.
+:::
+::::
+
+
+
