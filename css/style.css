@@ -227,6 +227,12 @@ text-align: left;
 }
 
 .sans{
-  font-family: 'Inter', 'GS', sans-serif;
+  font-family: 'Inter', 'GS_L', sans-serif;
   font-weight: 300;
+}
+
+.highlight {
+  background-color: #ffc250;
+  padding: 0.5em;
+  border-radius: 5px;
 }

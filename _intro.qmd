@@ -38,33 +38,19 @@ We like it because...
 Some active research groups
 :::
 :::{.ddm-box}
-- Electronic Structure / DFT / Quantum Materials
-  - Materials Project — High-throughput DFT database and computational materials discovery platform led from Lawrence Berkeley National Laboratory.
-  - OQMD — Open Quantum Materials Database; large-scale DFT infrastructure.
-  - NOMAD Laboratory — Major FAIR-data and materials informatics effort.
-  - Center for Computational Study of Excited-State Phenomena in Energy Materials (C2SEPEM) — Advanced excited-state and electronic-structure modeling.
 
-- Machine Learning for Materials
-  - FAIR Chemistry — AI foundation models for molecules and materials.
-  - DeepMind — Active in materials discovery and graph neural network methods.
-  - Microsoft Research — Strong activity in AI-guided materials design and sustainability modeling.
-  - Toyota Research Institute — ML-driven battery and materials discovery efforts.
 
-- Special Materials (MOFs / Porous Materials / Energy Materials...)
-  - Wilmer Lab — High-throughput screening and ML for MOFs.
-  - Snurr Research Group — Computational nanoporous materials and adsorption modeling.
-  - Smit Group — Molecular simulation of porous materials and separations.
-  - Kulik Group — ML + electronic structure for catalysts and framework materials.
+:::{.sans style="font-size: 0.7em;color: #222222;"}
+|  | |  |  |  |
+|-------|---|---|-----|---|
+| **Electronic Structure / Quantum Materials** | **Materials Project** | **OQMD** | **NOMAD Laboratory** | **C2SEPEM** |
+| **Machine Learning for Materials** | **FAIR Chemistry** | **DeepMind** | **Microsoft Research** | **Toyota Research Institute** |
+| **Special Materials <br> (MOFs / Porous Materials / Energy Materials)** | **Wilmer Lab** | **Snurr Research Group** | **Smit Group** | **Kulik Group** |
+| **Multiscale / Molecular Dynamics / Computational Mechanics** | **LAMMPS Development Team** | **Materials Theory Group (Imperial College London)** | **Max Planck Institute for Iron Research** |  |
+| **Europe-Based Centers Strong for MSCA/Postdoc Opportunities** | **CECAM** | **Institute of Science and Technology Austria** | **Forschungszentrum Jülich** |  |
+::: 
 
-- Multiscale / Molecular Dynamics / Computational Mechanics
-  - LAMMPS Development Team — Central hub for atomistic simulation methods and MD workflows.
-  - Materials Theory Group at Imperial College London — Active in atomistic and mesoscale modeling.
-  - Max Planck Institute for Iron Research — Strong computational materials science division spanning DFT to continuum modeling.
-
-- Europe-Based Centers Strong for MSCA/Postdoc Opportunities
-  - Cecam — Major European network for computational materials science.
-  - Institute of Science and Technology Austria — Growing computational materials and ML ecosystem.
-  - Forschungszentrum Jülich — Large-scale HPC and materials modeling programs.
+[There are TONS more.]{.highlight}
 
 
 :::

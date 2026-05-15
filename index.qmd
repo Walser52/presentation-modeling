@@ -29,9 +29,7 @@ include-in-header:
 editor: source
 ---
 
-
-
-## {.center}
+##  {.center}
 
 {{< include _title.qmd >}}
 
@@ -45,20 +43,20 @@ editor: source
 
 {{< include _intro.qmd >}}
 
-## {.scrollable}
+##  {.scrollable}
 
 {{< include _dft.qmd >}}
 
-## {.scrollable}
+##  {.scrollable}
 
 {{< include _ase_qe.qmd >}}
 
-
-## {.scrollable}
+##  {.scrollable}
 
 {{< include _pitfalls_skills.qmd >}}
 
 <!-- The end -->
-## {.center}
-{{< include _theend.qmd >}}
 
+##  {.center}
+
+{{< include _theend.qmd >}}
