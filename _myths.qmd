@@ -1,8 +1,8 @@
-
-
+::::{.columns}
+:::{.column}
+<!-- start -->
 ::::{.ddm}
 :::{.dd-head onclick="toggleBox(this)"}
-
 Myth 1: Simulations are always accurate
 :::
 :::{.dd-box}
@@ -41,7 +41,23 @@ Myth 3: Modeling replaces experiments
 
 ::::{.ddm}
 :::{.dd-head onclick="toggleBox(this)"}
-Myth 4: Coding skill alone makes you a modeler
+Myth 4: Experiments obviate modeling
+:::
+:::{.dd-box}
+All experiments have limitations (e.g., resolution, conditions). Modeling can provide insights where experiments cannot reach. Both are essential for a complete understanding.
+
+A bad experiment is not better than a good model, and a good model is not better than a bad experiment. Both have their place.
+:::
+::::
+
+
+<!-- end -->
+:::
+:::{.column}
+<!-- start -->
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+Myth 5: Coding skill alone makes you a modeler
 :::
 :::{.dd-box}
 - Software operation ≠ scientific understanding
@@ -52,8 +68,8 @@ Myth 4: Coding skill alone makes you a modeler
 
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)"}
-Myth: Materials modeling is only at the atomic level
+:::{.dd-head onclick="toggleBox(this)" style="background-color: IndianRed;"}
+Myth 6: Materials modeling is only at the atomic level
 :::
 :::{.dd-box}
 
@@ -64,7 +80,7 @@ Materials modeling spans every scale — from electrons and atoms to devices, fa
 
 ::::{.ddm}
 :::{.dd-head onclick="toggleBox(this)"}
-Myth 5: Machine learning will replace physics
+Myth 7: Machine learning will replace physics
 :::
 :::{.dd-box}
 - ML is powerful but data-dependent
@@ -73,17 +89,18 @@ Myth 5: Machine learning will replace physics
 :::
 ::::
 
-<!-- style="background-color: #d9534f;" -->
+
+<!-- end -->
+:::
+::::
 
 
-<!-- ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
-Common Pitfall
-:::
-:::{.dd-box}
-> Pretty plots do not guarantee correct science.
-:::
-:::: -->
+
+
+
+
+
+
 
 ::::{.ddm}
 :::{.dd-head onclick="toggleBox(this)" style="background-color: #1c445e;"}
