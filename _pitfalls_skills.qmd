@@ -1,0 +1,33 @@
+:::{.navbar}
+
+[Common pitfalls]{.nav-option data-option="option21"    onclick="showContent(this)"}
+[Skills Required]{.nav-option data-option="option22"    onclick="showContent(this)"}
+[Materials to Model]{.nav-option data-option="option23" onclick="showContent(this)"}
+[Projects]{.nav-option data-option="option24"           onclick="showContent(this)"}
+
+:::
+
+
+:::{#option21Content .content}
+
+{{< include _pitfalls.qmd >}}
+
+:::
+
+:::{#option22Content .content}
+
+{{< include _skills.qmd >}}
+:::
+
+:::{#option23Content .content}
+
+{{< include _materials.qmd >}}
+
+:::
+
+:::{#option24Content .content}
+
+{{< include _projects.qmd >}}
+
+:::
+

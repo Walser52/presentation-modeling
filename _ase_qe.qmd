@@ -44,6 +44,19 @@ K_POINTS (automatic)
 
 An understanding of each aspect is crucial.
 
+## {.scrollable}
+
+<iframe 
+  src="figs/qe_workflow.html"
+  width="150%" 
+  height="100%"
+  style="border:none;">
+</iframe>
+
+## {.scrollable}
+
+{{< include _methods.qmd >}}
+
 ## What is working with ASE/RDkit/pymatgen like 
 
 

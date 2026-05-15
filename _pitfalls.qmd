@@ -1,5 +1,11 @@
+
+
+::::{.columns}
+:::{.column}
+
+<!-- content -->
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
 No Clear Research Question
 :::
 :::{.dd-box}
@@ -8,7 +14,7 @@ Starting with “let’s simulate this system” is not a research direction. Wi
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
 Tool-First Thinking
 :::
 :::{.dd-box}
@@ -17,7 +23,7 @@ Approaching research by choosing a software or method first (DFT, MD, ML) leads 
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
 Button-Clicking Mentality
 :::
 :::{.dd-box}
@@ -26,34 +32,7 @@ Running simulations without understanding the underlying assumptions reduces mod
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
-Confusing Activity with Progress
-:::
-:::{.dd-box}
-Submitting jobs, generating data, and making plots can feel productive—but they don’t guarantee understanding. Progress is measured by clearer reasoning and deeper insight, not computational output.
-:::
-::::
-
-::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
-Avoiding “Why” Questions
-:::
-:::{.dd-box}
-Stopping at observations (“energy decreased”, “band gap changed”) limits your growth. Real research begins when you ask why these changes occur and what mechanisms drive them.
-:::
-::::
-
-::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
-Fear of Being Wrong
-:::
-:::{.dd-box}
-Hesitating to interpret results or propose explanations slows progress. Modeling is inherently approximate—being wrong is part of the process, as long as your reasoning is explicit and testable.
-:::
-::::
-
-::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
 Working in Isolation
 :::
 :::{.dd-box}
@@ -62,7 +41,7 @@ Ignoring existing literature or failing to connect with prior work leads to rein
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
 Chasing Novelty Over Understanding
 :::
 :::{.dd-box}
@@ -71,7 +50,51 @@ Using the latest methods or trends without depth leads to superficial results. I
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: IndianRed;"}
+Passive Learning
+:::
+:::{.dd-box}
+Watching tutorials or reading papers without active engagement creates an illusion of understanding. Real learning comes from attempting, failing, and refining your approach.
+:::
+::::
+<!-- contentend -->
+
+:::
+:::{.column}
+
+<!-- content -->
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
+Confusing Activity with Progress
+:::
+:::{.dd-box}
+Submitting jobs, generating data, and making plots can feel productive—but they don’t guarantee understanding. Progress is measured by clearer reasoning and deeper insight, not computational output.
+:::
+::::
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
+Avoiding “Why” Questions
+:::
+:::{.dd-box}
+Stopping at observations (“energy decreased”, “band gap changed”) limits your growth. Real research begins when you ask why these changes occur and what mechanisms drive them.
+:::
+::::
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
+Fear of Being Wrong
+:::
+:::{.dd-box}
+Hesitating to interpret results or propose explanations slows progress. Modeling is inherently approximate—being wrong is part of the process, as long as your reasoning is explicit and testable.
+:::
+::::
+
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
 Ignoring Length and Time Scales
 :::
 :::{.dd-box}
@@ -80,7 +103,7 @@ Every method operates within specific scales. Applying a technique outside its a
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
 Weak Scientific Communication
 :::
 :::{.dd-box}
@@ -89,19 +112,21 @@ Even solid work fails if it cannot be clearly explained. You should be able to s
 ::::
 
 ::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
-Passive Learning
-:::
-:::{.dd-box}
-Watching tutorials or reading papers without active engagement creates an illusion of understanding. Real learning comes from attempting, failing, and refining your approach.
-:::
-::::
-
-::::{.ddm}
-:::{.dd-head onclick="toggleBox(this)" style="background-color: #d9534f;"}
+:::{.dd-head onclick="toggleBox(this)" style="background-color: #4a8e91;"}
 Lack of Scientific Taste
 :::
 :::{.dd-box}
 Not all problems are equally meaningful, and not all results are equally trustworthy. Developing judgment about what matters and what is reliable is essential—and comes from experience and reflection.
 :::
 ::::
+<!-- contentend -->
+:::
+::::
+
+
+
+
+
+
+
+
